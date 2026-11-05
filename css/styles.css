@@ -1,12 +1,12 @@
 /* =====================================================================
-   Elmer Remodeling LLC — Homepage
+   T&G Construction — Homepage
    Design system: remodeling × editorial
    Brand: warm brass on espresso
    ===================================================================== */
 
 /* ---------- Design tokens ---------- */
 :root {
-  /* palette — Elmer: warm espresso + brass (premium remodeling) */
+  /* palette — T&G: warm espresso + brass (premium remodeling) */
   --graphite:      #1f1a16;   /* warm espresso (dark sections / header) */
   --charcoal:      #2a231d;   /* espresso 2 */
   --slate:         #5a5147;
@@ -137,8 +137,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Logo ---------- */
 .logo { display: inline-flex; align-items: center; gap: 13px; }
-.logo__mark { flex: none; height: 92px; width: auto; display: block; }
-.site-header[data-scrolled] .logo__mark { height: 74px; transition: height .3s var(--ease); }
+.logo__mark { flex: none; height: 100px; width: auto; display: block; }
+.site-header[data-scrolled] .logo__mark { height: 76px; transition: height .3s var(--ease); }
 
 /* text logo (B&F text logo) */
 .logo__text { display: flex; flex-direction: column; line-height: 1; border-left: 3px solid var(--accent); padding-left: 13px; }
@@ -560,7 +560,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .header__inner { display: flex; justify-content: space-between; }
   .nav, .header__actions { display: none; }
   .menu-toggle { display: flex; }
-  .logo__mark { height: 66px; }
+  .logo__mark { height: 74px; }
   .site-header[data-scrolled] .logo__mark { height: 54px; }
   .site-header[data-scrolled] .header__inner { height: 72px; }
   .hero__inner { padding-block: clamp(108px, 22vw, 156px) clamp(56px, 12vw, 96px); }

@@ -101,7 +101,7 @@
       }
       if (status) {
         status.setAttribute("data-state", "ok");
-        status.textContent = "Thanks — this is a demo form. Connect it to email or a CRM to start receiving requests. Or call 703-209-1941. ";
+        status.textContent = "Thanks — this is a demo form. Connect it to email or a CRM to start receiving requests. Or call 217-329-8193. ";
       }
       form.reset();
     });
